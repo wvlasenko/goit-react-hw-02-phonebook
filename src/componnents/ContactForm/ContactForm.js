@@ -37,7 +37,6 @@ class ContactForm extends Component {
                         value={name}
                         onChange={this.onInputValue}
                         name="name"
-                        id={uuid4()}
                         className={ContactFormStl.input}
                     />
                 </label>
@@ -48,7 +47,6 @@ class ContactForm extends Component {
                         value={number}
                         onChange={this.onInputValue}
                         name="number"
-                        id={uuid4()}
                         className={ContactFormStl.input}
                     />
                 </label>
